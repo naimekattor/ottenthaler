@@ -24,7 +24,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
     setRootElement(root);
   }, []);
   return (
-    <div className="bg-white p-8">
+    <div className="bg-white p-8 h-full">
       <div className="bg-primary rounded-md w-16 h-16 flex items-center justify-center relative bottom-15">
         <span className="text-[30px] text-white">{icon}</span>
       </div>

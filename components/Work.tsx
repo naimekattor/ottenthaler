@@ -80,7 +80,7 @@ const Work = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.5 }}
         >
-          <div className="relative text-center shadow-lg bg-white rounded p-2 group overflow-hidden">
+          <div className="relative text-center shadow-lg bg-white rounded p-2 group overflow-hidden h-full">
             <div
               className="absolute inset-0 bg-cover bg-center rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               style={{

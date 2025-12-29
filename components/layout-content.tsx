@@ -45,14 +45,23 @@ export default function LayoutContent({
       <ToastContainer />
 
       <AnimatedCursor
-        color="228,0,75"
-        innerSize={8}
-        outerSize={35}
-        innerScale={1}
-        outerScale={2.7}
-        outerAlpha={0.2}
-        outerStyle={{ mixBlendMode: "exclusion" }}
-      />
+  color="#d6a95b"  // Inner dot
+  innerSize={10}
+  outerSize={40}
+  innerScale={0.8}
+  outerScale={2.5}
+  outerAlpha={0.3}
+  outerStyle={{
+    border: "2px solid #d6a95b",
+    backgroundColor: "transparent",
+    mixBlendMode: "normal",  // ← Change to 'normal' (no inversion)
+    // Optional: Remove if still blue-ish
+    // mixBlendMode: "unset",
+  }}
+  innerStyle={{
+    backgroundColor: "#d6a95b",
+  }}
+/>
       {isHome && <TopHeader />}
 
       {/* Sticky Header */}

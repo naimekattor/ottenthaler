@@ -9,7 +9,7 @@ const page = () => {
         </h1>
 
         {/* Impressum Section */}
-        <section className="mb-12 bg-gray-50 p-6 rounded-lg border-l-4 border-blue-500">
+        <section className="mb-12 bg-gray-50 p-6 rounded-lg border-l-4 border-secondary">
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">
             Impressum
           </h2>

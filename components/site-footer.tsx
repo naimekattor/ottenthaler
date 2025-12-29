@@ -81,7 +81,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/about"
-                  className="text-gray-600 hover:text-white transition-colors"
+                  className="text-gray-600 hover:text-secondary transition-colors"
                 >
                   Über uns
                 </Link>
@@ -89,7 +89,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/service"
-                  className="text-gray-600 hover:text-white transition-colors"
+                  className="text-gray-600 hover:text-secondary transition-colors"
                 >
                   Service
                 </Link>
@@ -97,7 +97,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="contact"
-                  className="text-gray-600 hover:text-white transition-colors"
+                  className="text-gray-600 hover:text-secondary transition-colors"
                 >
                   Kontakt
                 </Link>
@@ -105,7 +105,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/blog"
-                  className="text-gray-600 hover:text-white transition-colors"
+                  className="text-gray-600 hover:text-secondary transition-colors"
                 >
                   Blog
                 </Link>
@@ -114,7 +114,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/privacy-policy"
-                  className="text-gray-600 hover:text-white transition-colors"
+                  className="text-gray-600 hover:text-secondary transition-colors"
                 >
                   Impressum und Datenschutz
                 </Link>

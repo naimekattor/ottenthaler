@@ -1,0 +1,235 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --animate-marquee: marquee var(--duration) infinite linear;
+  --animate-marquee-vertical: marquee-vertical var(--duration) linear infinite;
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(calc(-100% - var(--gap)));
+    }
+  }
+  @keyframes marquee-vertical {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(calc(-100% - var(--gap)));
+    }
+  }
+}
+
+:root {
+  --radius: 0.625rem;
+  --background: oklch(0.98 0 0); /* Slightly warmer white */
+  --foreground: oklch(0.145 0 0);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.145 0 0);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.145 0 0);
+  
+  /* PRIMARY: Your Brown (#8b6543) */
+  --primary: #d6a95b;
+  --primary-foreground: oklch(0.98 0 0);
+  
+  /* SECONDARY: Your Gold (#d6a95b) */
+  --secondary: #8b6543;
+  --secondary-foreground: oklch(0.145 0 0);
+  
+  --muted: oklch(0.96 0 0);
+  --muted-foreground: oklch(0.556 0 0);
+  
+  /* ACCENT: Use gold for accent */
+  --accent: #d6a95b;
+  --accent-foreground: oklch(0.145 0 0);
+  
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: oklch(0.9 0 0); /* Warmer border */
+  --input: oklch(0.95 0 0);
+  --ring: #8b6543; /* Primary color for focus rings */
+  
+  /* Chart colors using your palette */
+  --chart-1: #8b6543; /* Wood brown */
+  --chart-2: #d6a95b; /* Brass gold */
+  --chart-3: #a37a52; /* Lighter wood */
+  --chart-4: #c4923a; /* Darker gold */
+  --chart-5: #6d4f34; /* Dark wood */
+  
+  /* Sidebar */
+  --sidebar: oklch(0.985 0 0);
+  --sidebar-foreground: oklch(0.145 0 0);
+  --sidebar-primary: #8b6543; /* Your brown */
+  --sidebar-primary-foreground: oklch(0.98 0 0);
+  --sidebar-accent: oklch(0.96 0 0);
+  --sidebar-accent-foreground: oklch(0.145 0 0);
+  --sidebar-border: oklch(0.9 0 0);
+  --sidebar-ring: #8b6543;
+  
+  --font-montserrat: "Montserrat", sans-serif;
+
+  --wood-light: #f6f6f6;
+  --wood-medium: #e8d7c3;
+  --wood-dark: #8b6543;
+  
+  --brass-light: #f9efcb;
+  --brass-medium: #d6a95b;
+  --brass-dark: #b8943a;
+  
+  --stone-light: #f8f9fa;
+  --stone-medium: #e9ecef;
+  --stone-dark: #adb5bd;
+  
+  /* Material Gradients */
+  --gradient-wood: linear-gradient(135deg, #8b6543 0%, #a37a52 100%);
+  --gradient-brass: linear-gradient(135deg, #d6a95b 0%, #f2c152 100%);
+  
+  /* Shadows with brand colors */
+  --shadow-wood: 0 4px 14px rgba(139, 101, 67, 0.15);
+  --shadow-brass: 0 4px 14px rgba(214, 169, 91, 0.15);
+  
+  /* Interactive States */
+  --primary-hover: #755539;
+  --secondary-hover: #c4923a;
+  --primary-active: #5e4430;
+  --secondary-active: #a3722f;
+}
+
+.dark {
+  --background: oklch(0.145 0 0);
+  --foreground: oklch(0.98 0 0);
+  --card: oklch(0.2 0 0);
+  --card-foreground: oklch(0.98 0 0);
+  --popover: oklch(0.2 0 0);
+  --popover-foreground: oklch(0.98 0 0);
+  
+  /* PRIMARY DARK: Lighter brown for dark mode */
+  --primary: #d4b99c;
+  --primary-foreground: oklch(0.145 0 0);
+  
+  /* SECONDARY DARK: Softer gold */
+  --secondary: #f2c152;
+  --secondary-foreground: oklch(0.145 0 0);
+  
+  --muted: oklch(0.25 0 0);
+  --muted-foreground: oklch(0.7 0 0);
+  
+  /* ACCENT DARK */
+  --accent: #f2c152;
+  --accent-foreground: oklch(0.145 0 0);
+  
+  --destructive: oklch(0.704 0.191 22.216);
+  --border: oklch(1 0 0 / 15%);
+  --input: oklch(1 0 0 / 20%);
+  --ring: #d4b99c; /* Lighter brown for focus */
+  
+  /* Dark mode chart colors */
+  --chart-1: #d4b99c; /* Light wood */
+  --chart-2: #f2c152; /* Light gold */
+  --chart-3: #b48f5e; /* Medium wood */
+  --chart-4: #e2b03e; /* Medium gold */
+  --chart-5: #8b6543; /* Original brown */
+  
+  /* Sidebar Dark */
+  --sidebar: oklch(0.2 0 0);
+  --sidebar-foreground: oklch(0.98 0 0);
+  --sidebar-primary: #d4b99c;
+  --sidebar-primary-foreground: oklch(0.145 0 0);
+  --sidebar-accent: oklch(0.25 0 0);
+  --sidebar-accent-foreground: oklch(0.98 0 0);
+  --sidebar-border: oklch(1 0 0 / 15%);
+  --sidebar-ring: #d4b99c;
+   --wood-light: #3d2c1f;
+  --wood-medium: #4c3726;
+  --wood-dark: #d4b99c;
+  
+  --brass-light: #6b4c28;
+  --brass-medium: #f2c152;
+  --brass-dark: #e2b03e;
+  
+  --stone-light: #333d4b;
+  --stone-medium: #4e5968;
+  --stone-dark: #8b95a1;
+  
+  --gradient-wood: linear-gradient(135deg, #4c3726 0%, #5e4430 100%);
+  --gradient-brass: linear-gradient(135deg, #a07436 0%, #c09042 100%);
+}
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-montserrat);
+  }
+}
+@keyframes bounceCustom {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.animate-bounce-custom {
+  animation: bounceCustom 2s ease-in-out infinite;
+}
+.text-card-foreground {
+  overflow: visible;
+}
+.goog-te-banner-frame.skiptranslate,
+.goog-te-gadget,
+.goog-te-banner {
+  display: none !important;
+}
+
+body {
+  top: 0px !important;
+}
+
+.skiptranslate {
+  display: none;
+}

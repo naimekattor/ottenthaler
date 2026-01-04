@@ -27,7 +27,7 @@ export default function Footer() {
               <div className="inline-block mb-4">
                 <Link href="/" className="flex items-center gap-2">
                   <Image
-                    src="/images/logo3.png"
+                    src="/images/logo4.png"
                     width={200}
                     height={86}
                     alt="conten Kuche & raum logo"

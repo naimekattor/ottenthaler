@@ -25,21 +25,18 @@ const Hero = () => {
             {/* Main heading */}
 
             <h1 className="text-4xl md:text-5xl  font-semibold text-black/80 leading-tight tracking-tight mb-4 text-center md:w-3/4 w-full ">
-              Mehr als Standard: Küchen für Menschen mit besonderen Ansprüchen.
+              Ihr NOLTE Küchenstudio im Herzen Oberbayerns
+in Töging, Altötting und Mühldorf.
             </h1>
 
             {/* Description */}
             <p className="text-[16px]  max-w-md mb-8 text-center lg:text-left">
-              Bei uns bekommen Sie keine Küche von der Stange. Wir hören genau
-              zu, gehen auf Ihre Wünsche ein und entwickeln Lösungen, die
-              perfekt zu Ihrem Leben passen – funktional, ästhetisch und
-              einzigartig. Ob raffinierte Details, innovative Technik oder
-              besondere Materialien: Wir machen Ihre Traumküche möglich.
+              Wir planen und verwirklichen exklusiv mit NOLTE, denn Ihre Traumküche soll mehr als Standard sein. Maßgeschneidert, durchdacht und perfekt für Ihr Zuhause in der Region.
             </p>
 
             <div className="relative md:block hidden">
               <Image
-                src={"/images/hero_img1.jpg"}
+                src={"/images/B2.jpg"}
                 alt="hero image"
                 width={300}
                 height={323}
@@ -63,7 +60,7 @@ const Hero = () => {
                 <Image
                   width={750}
                   height={450}
-                  src="/images/hero.jpg"
+                  src="/images/B1.jpg"
                   alt="Living Room"
                   className="w-[640px] md:h-[750px] h-[450px] object-cover"
                 />

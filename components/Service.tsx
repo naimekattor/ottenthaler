@@ -24,7 +24,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
     setRootElement(root);
   }, []);
   return (
-    <div className="bg-white p-8 h-full">
+    <div className="bg-white p-8 h-full flex flex-col justify-between">
       <div className="bg-primary rounded-md w-16 h-16 flex items-center justify-center relative bottom-15">
         <span className="text-[30px] text-white">{icon}</span>
       </div>
@@ -64,10 +64,10 @@ const Service = () => {
           {/* Left Content Section */}
           <div className="text-center lg:text-left py-20">
             <p className="text-sm font-semibold tracking-widest text-gray-700 uppercase mb-4">
-              Unser Service
+              Unsere Leistungen
             </p>
             <h4 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-black/80 leading-tight">
-              Lebensräume gestalten, <br /> die inspirieren.
+              Von der Küche bis zum Bad.<br/> Für Sie geplant.
             </h4>
 
             <div className="mt-12 grid grid-cols-1 md:grid-cols-1 gap-8">
@@ -79,8 +79,8 @@ const Service = () => {
                 >
                   <ServiceCard
                     icon={<FaKitchenSet />}
-                    title="Individuelle Küchenplanung"
-                    description="Hier entstehen Küchen, die genau auf Ihre Wünsche zugeschnitten sind – von der ersten Idee bis zur perfekten Umsetzung."
+                    title="Küchenplanung in Perfektion"
+                    description="Von der ersten Idee bis zum fertigen Raum: Wir entwickeln mit Ihnen ein durchdachtes Küchenkonzept, das begeistert. Exklusiv mit der Vielfalt der NOLTE Neo Serie finden wir für Ihr Zuhause in Töging, Altötting oder Mühldorf die optimale Lösung – perfekt auf Ihren Stil, Ihre Abläufe und Ihr Budget abgestimmt."
                   />
                 </ScrollAnimation>
                 <ScrollAnimation
@@ -90,8 +90,8 @@ const Service = () => {
                 >
                   <ServiceCard
                     icon={<BiCabinet />}
-                    title="Wohnideen & Möbel"
-                    description="Wir planen nicht nur Küchen, sondern auch maßgeschneiderte Wohnmöbel, die Ihr Zuhause harmonisch ergänzen."
+                    title="Badspezialist"
+                    description="Ein Bad ist mehr als ein Funktionsraum. Als Ihr Spezialist vor Ort planen und realisieren wir auch Ihr neues Badezimmer oder Gäste-WC mit demselben Anspruch an Qualität und Passgenauigkeit wie bei Ihrer Küche – für ein rundum stimmiges Zuhause in der Region."
                   />
                 </ScrollAnimation>
                 <ScrollAnimation
@@ -101,8 +101,8 @@ const Service = () => {
                 >
                   <ServiceCard
                     icon={<MdOutlineCountertops />}
-                    title="Präzision & Montage"
-                    description="Unsere erfahrenen Monteure und Schreiner sorgen für eine millimetergenaue Umsetzung – für Qualität, die man spürt."
+                    title="Küchen-Vollservice"
+                    description="Aufmaß, Lieferung, fachgerechter Einbau durch unsere zuverlässigen Montagepartner sowie Wasser- und Elektroanschlüsse: Wir koordinieren alles für Sie. So erhalten Sie Ihre neue NOLTE Küche schlüsselfertig und können sich vom ersten Tag an über Ihren neuen Lieblingsraum freuen."
                   />
                 </ScrollAnimation>
               </div>
@@ -114,7 +114,7 @@ const Service = () => {
             <Image
               width={1000}
               height={800}
-              src="/images/service_img1.jpg"
+              src="/images/B5.jpg"
               alt="Modern kitchen interior"
               className="w-full h-full object-cover rounded-lg absolute -right-90"
             />

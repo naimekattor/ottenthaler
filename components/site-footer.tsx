@@ -60,14 +60,14 @@ export default function Footer() {
             {/* Social Media Icons */}
             <div className="flex space-x-3">
               <Link
-                href={"https://www.facebook.com/contekuechen"}
-                className="w-10 h-10 bg-primary text-white hover:bg-gray-700 rounded-lg flex items-center justify-center cursor-pointer transition-colors"
+                href={"https://www.facebook.com/profile.php?id=61585777100973"}
+                className="w-10 h-10 bg-primary text-white hover:bg-secondary rounded-lg flex items-center justify-center cursor-pointer transition-colors"
               >
                 <Facebook className="w-5 h-5" />
               </Link>
               <Link
-                href={"https://www.instagram.com/contekuechen"}
-                className="w-10 h-10 bg-primary text-white hover:bg-gray-700 rounded-lg flex items-center justify-center cursor-pointer transition-colors"
+                href={"https://www.instagram.com/ottenthalerkuechen/"}
+                className="w-10 h-10 bg-primary text-white hover:bg-secondary rounded-lg flex items-center justify-center cursor-pointer transition-colors"
               >
                 <FaInstagram className="w-5 h-5" />
               </Link>
@@ -81,7 +81,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/about"
-                  className="text-gray-600 hover:text-secondary transition-colors"
+                  className="text-gray-600  transition-colors"
                 >
                   Über uns
                 </Link>
@@ -89,7 +89,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/service"
-                  className="text-gray-600 hover:text-secondary transition-colors"
+                  className="text-gray-600  transition-colors"
                 >
                   Service
                 </Link>
@@ -97,7 +97,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="contact"
-                  className="text-gray-600 hover:text-secondary transition-colors"
+                  className="text-gray-600  transition-colors"
                 >
                   Kontakt
                 </Link>
@@ -105,7 +105,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/blog"
-                  className="text-gray-600 hover:text-secondary transition-colors"
+                  className="text-gray-600  transition-colors"
                 >
                   Blog
                 </Link>
@@ -135,7 +135,9 @@ export default function Footer() {
                 <div>
                   <p className="text-gray-600 text-sm">Adresse</p>
                   <p className=" font-medium">
-                    Hauptstraße 36, 83527 Haag in Oberbayern
+                   Wolfgang-Leeb-Straße 17
+84513 Töging am Inn
+
                   </p>
                 </div>
               </div>
@@ -146,7 +148,7 @@ export default function Footer() {
                 </div>
                 <div>
                   <p className="text-gray-600 text-sm">Telefon</p>
-                  <p className=" font-medium">08072/6869555</p>
+                  <p className=" font-medium">08631-1660023</p>
                 </div>
               </div>
 
@@ -156,7 +158,7 @@ export default function Footer() {
                 </div>
                 <div>
                   <p className="text-gray-600 text-sm">E-Mail </p>
-                  <p className=" font-medium">info@contekuechen.de</p>
+                  <p className=" font-medium">ottenthaler@vadaconte.de</p>
                 </div>
               </div>
             </div>
@@ -167,7 +169,7 @@ export default function Footer() {
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-600 text-sm mb-4 md:mb-0">
-              © Conte Küche & Raum GmbH 2025 | All Rights Reserved
+              © VADA Conte GmbH 2026 | All Rights Reserved
             </p>
             <div className="flex space-x-6">
               {/* <a
@@ -178,13 +180,13 @@ export default function Footer() {
               </a> */}
               <Link
                 href="/privacy-policy"
-                className="text-gray-600 hover:text-white text-sm transition-colors"
+                className="text-gray-600  text-sm transition-colors"
               >
                 Privacy Policy
               </Link>
               <Link
                 href="/contact"
-                className="text-gray-600 hover:text-white text-sm transition-colors"
+                className="text-gray-600  text-sm transition-colors"
               >
                 Kontakt
               </Link>

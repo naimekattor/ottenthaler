@@ -15,10 +15,11 @@ const Testoimonial = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 container mx-auto overflow-visible">
         <div className="relative z-0 ">
           <Image
-            src={"/images/testimonial.jpg"}
+            src={"/images/PICTUREREVIEW.jpg"}
             alt="bg-image"
             width={2500}
             height={1667}
+            className=" h-[600px]"
           />
         </div>
 
@@ -50,16 +51,20 @@ const Testoimonial = () => {
                 <div className="flex bg-white rounded-xl shadow-lg p-6 max-w-lg mx-auto md:p-8">
                   <div className="flex flex-col space-y-4">
                     <div className="flex items-center space-x-4">
-                      <Image
+                      {/* <Image
                         src="/images/tesPerson1.jpg"
                         alt="team member"
                         width={64}
                         height={64}
                         className="w-16 h-16 rounded-full object-cover"
-                      />
+                      /> */}
+                      <div className="border-2 bg-primary font-bold w-16 h-16 rounded-full uppercase flex items-center justify-center">
+  M
+</div>
+
                       <div className="flex-1">
                         <h3 className="text-xl font-bold text-gray-800">
-                          Felix Moser
+                          Michael Hertle
                         </h3>
                         {/* <p className="text-sm text-gray-500">
                           Inhaber und Geschäftsführung
@@ -82,11 +87,8 @@ const Testoimonial = () => {
                       ))}
                     </div>
                     <p className="text-gray-600 leading-relaxed italic mt-2">
-                      Sehr gute Adresse für tolle Küchen. Die Beratung top.
-                      Nicht nur werden hervorragende Vorschläge gemacht, sondern
-                      auch die eigenen Wünsche in die Planung einbezogen und
-                      wenn nötig angepasst. Wir hatten immer das Gefühl „unsere“
-                      Küche zu ... Mehr
+                     Sehr sehr gute Beratung. Tolle Küchen zum fairen Preis.
+Sehr guter Berater Hans Alt. Dankeschön.
                     </p>
                   </div>
                 </div>
@@ -95,16 +97,20 @@ const Testoimonial = () => {
                 <div className="flex bg-white rounded-xl shadow-lg p-6 max-w-lg mx-auto md:p-8">
                   <div className="flex flex-col space-y-4">
                     <div className="flex items-center space-x-4">
-                      <Image
+                      {/* <Image
                         src="/images/tesPerson2.jpg"
                         alt="team member"
                         width={64}
                         height={64}
                         className="w-16 h-16 rounded-full object-cover"
-                      />
+                      /> */}
+                      <div className="border-2 bg-primary font-bold w-16 h-16 rounded-full uppercase flex items-center justify-center">
+  H
+</div>
+
                       <div className="flex-1">
                         <h3 className="text-xl font-bold text-gray-800">
-                          Rupert Moka
+                          HÖ
                         </h3>
                         {/* <p className="text-sm text-gray-500">role</p> */}
                       </div>
@@ -125,9 +131,8 @@ const Testoimonial = () => {
                       ))}
                     </div>
                     <p className="text-gray-600 leading-relaxed italic mt-2">
-                      Alles Super, von Anfang bis Ende! Wir können dieses
-                      Küchenstudio nur wärmstens empfehlen. Bei der Planung und
-                      Beratung werden genau auf die Wünsche des Kunden ...
+                      Sehr schöne beratung und Qualität sehr gut . Kann ich nur
+weiterempfehlen.
                     </p>
                   </div>
                 </div>
@@ -136,16 +141,20 @@ const Testoimonial = () => {
                 <div className="flex bg-white rounded-xl shadow-lg p-6 max-w-lg mx-auto md:p-8">
                   <div className="flex flex-col space-y-4">
                     <div className="flex items-center space-x-4">
-                      <Image
+                      {/* <Image
                         src="/images/tesPerson3.jpg"
                         alt="team member"
                         width={64}
                         height={64}
                         className="w-16 h-16 rounded-full object-cover"
-                      />
+                      /> */}
+                      <div className="border-2 bg-primary font-bold w-16 h-16 rounded-full uppercase flex items-center justify-center">
+  W
+</div>
+
                       <div className="flex-1">
                         <h3 className="text-xl font-bold text-gray-800">
-                          Karsten
+                          Wolfgang Simonavicis
                         </h3>
                         {/* <p className="text-sm text-gray-500">role</p> */}
                       </div>
@@ -166,14 +175,12 @@ const Testoimonial = () => {
                       ))}
                     </div>
                     <p className="text-gray-600 leading-relaxed italic mt-2">
-                      Wir sind nach einigen Beratungen bei den üblichen
-                      Verdächtigen durch einen .. glucklichen Zufall auf Conte
-                      Küchen gestoßen und haben es nicht bereut!
+                      Gute Beratung
                     </p>
                   </div>
                 </div>
               </SwiperSlide>
-              <SwiperSlide>
+              {/* <SwiperSlide>
                 <div className="flex bg-white rounded-xl shadow-lg p-6 max-w-lg mx-auto md:p-8">
                   <div className="flex flex-col space-y-4">
                     <div className="flex items-center space-x-4">
@@ -188,7 +195,7 @@ const Testoimonial = () => {
                         <h3 className="text-xl font-bold text-gray-800">
                           Gabriele Gruber
                         </h3>
-                        {/* <p className="text-sm text-gray-500">role</p> */}
+                        <p className="text-sm text-gray-500">role</p>
                       </div>
                       <div className="flex-shrink-0 text-6xl text-gray-200 opacity-50 font-serif">
                         <Quote size={80} />
@@ -213,7 +220,7 @@ const Testoimonial = () => {
                     </p>
                   </div>
                 </div>
-              </SwiperSlide>
+              </SwiperSlide> */}
             </Swiper>
           </div>
         </div>

@@ -27,7 +27,7 @@ export default function AboutSection() {
               <div className="bg-primary text-white rounded shadow-lg flex flex-col items-center justify-center text-center p-8">
                 <h2 className="text-4xl sm:text-5xl font-bold">
                   <CountUp
-                    end={5}
+                    end={3}
                     enableScrollSpy
                     scrollSpyDelay={1000}
                     suffix="+"
@@ -40,11 +40,11 @@ export default function AboutSection() {
             {/* Main Image */}
             <div className="rounded overflow-hidden shadow-lg">
               <Image
-                src="/images/about_img1.jpg"
+                src="/images/B3.jpg"
                 alt="About main"
                 width={600}
                 height={400}
-                className="w-full h-full object-cover"
+                className="w-full h-[250px] object-cover"
               />
             </div>
           </div>
@@ -55,7 +55,7 @@ export default function AboutSection() {
               {/* Image taking 3/4 */}
               <div className="col-span-3">
                 <Image
-                  src="/images/about_img2.jpg"
+                  src="/images/B4.jpg"
                   alt="About extra"
                   width={900}
                   height={500}
@@ -115,23 +115,23 @@ export default function AboutSection() {
             Über uns
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-black/80 mt-2 leading-tight">
-            Mit Herz geplant, mit Präzision umgesetzt.
+            Unsere Geschichte: 28 Jahre Vertrauen. Neu gedacht.
           </h2>
-          <p className="mt-6 text-gray-600 leading-relaxed">
-            Persönlich, individuell und mit Herz! Wir möchten Ihr
-            vertrauensvoller Ansprechpartner für Einbauküchen und Wohnmöbel
-            sein. Durch die Zusammenarbeit mit einer handverlesenen Auswahl an
-            Marken maximieren wir unser Know-how und optimieren unsere
-            Einkaufskonditionen. Dies ermöglicht uns, Ihnen und unseren Kunden
-            einen spürbaren Preisvorteil zu bieten. Die Montage unserer Küchen
-            wird von erfahrenen Küchenmonteuren und unserem qualifizierten
-            Schreinerteam durchgeführt, um höchste Montagequalität zu
-            gewährleisten.
+          <p className="mt-2 text-gray-600 leading-relaxed">
+            Ein neues Kapitel mit bewährter Tradition: Ottenthalers Küchen wird nun als inhabergeführtes Familienunternehmen von der VADA Conte GmbH geführt. In direkter partnerschaftlicher Zusammenarbeit mit der CONTE Küche & Raum GmbH aus Haag in Oberbayern führen wir das Erbe von Christine und Erwin Ottenthaler fort – den Ruf als vertrauensvoller Ansprechpartner für die gutbürgerliche Einbauküche für jedes Budget in der Region.
           </p>
-          <p className="mt-4 text-gray-600 leading-relaxed">
-            „Unsere Zielsetzung ist eine kompromisslose Planung und Umsetzung,
-            die wir Dank unserer hauseigenen Werkstatt und unseres erfahrenen
-            Schreinerteams mit höchster Präzision realisieren.“
+          <p className="mt-2 text-gray-600 leading-relaxed">
+            Als autorisierter NOLTE Küchen-Partner verbinden wir diesen traditionsreichen Ansatz mit der modernen Designvielfalt der NOLTE NEO Serie. So entstehen Küchen, die dauerhaften Wert besitzen, perfekt funktionieren und für Haushalte in Töging am Inn, Altötting, Mühldorf und Rosenheim erschwinglich bleiben.
+
+          </p>
+          <p className="mt-2 text-gray-600 leading-relaxed">
+            Diese einzigartige Kombination aus handwerklicher Präzision unseres erfahrenen Teams, der exklusiven Markenpartnerschaft mit NOLTE und der starken Netzwerk-Rückendeckung durch CONTE bietet Ihnen Planungssicherheit und ein hervorragendes Preis-Leistungs-Verhältnis.
+          </p>
+          <p className="mt-2 text-gray-600 leading-relaxed">
+            „Unser Ziel ist es, das Vertrauen in den Namen Ottenthaler mit neuem Schwung zu erfüllen: Kompromisslose Qualität und persönlicher Service für jeden Geldbeutel – realisiert durch unsere langjährigen, zuverlässigen Montagepartner.“
+          </p>
+          <p className="mt-2 text-gray-600 leading-relaxed">
+            – Ihr Team der VADA Conte GmbH
           </p>
 
           <Button

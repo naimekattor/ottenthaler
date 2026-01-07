@@ -11,35 +11,35 @@ import ScrollAnimation from "./ScrollAnimation";
 
 const reviews = [
   {
-    img: "/images/brand1.png",
+    img: "/images/brandLogo/brand1.png",
   },
   {
-    img: "/images/brand2.png",
+    img: "/images/brandLogo/brand2.png",
   },
   {
-    img: "/images/brand3.png",
+    img: "/images/brandLogo/brand3.png",
   },
   {
-    img: "/images/brand4.png",
+    img: "/images/brandLogo/brand4.png",
   },
   {
-    img: "/images/brand5.png",
+    img: "/images/brandLogo/brand5.png",
   },
   {
-    img: "/images/brand6.png",
+    img: "/images/brandLogo/brand6.png",
   },
   {
-    img: "/images/brand8.png",
+    img: "/images/brandLogo/brand8.png",
   },
   {
-    img: "/images/brand9.png",
+    img: "/images/brandLogo/brand9.png",
   },
   {
-    img: "/images/brand10.png",
+    img: "/images/brandLogo/brand10.png",
   },
-  {
-    img: "/images/brand11.png",
-  },
+  // {
+  //   img: "/images/brandLogo/brand11.png",
+  // },
 ];
 
 const firstRow = reviews.slice(0, reviews.length);
@@ -113,21 +113,13 @@ const Achievement = () => {
                   Unsere Leistung
                 </p>
                 <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-black/80 mb-6 leading-tight">
-                  Küchen & Wohnräume, die begeistern – mit Erfahrung und
-                  Leidenschaft.
+                  Küchen & Wohnräume, die überzeugen – mit 28 Jahren Leidenschaft für die Region.
+
                 </h2>
                 <p className="text-muted-foreground mb-8 leading-relaxed">
-                  Als erfahrenes Küchenstudio in Haag in Oberbayern planen und
-                  realisieren wir seit vielen Jahren maßgeschneiderte
-                  Einbauküchen und Wohnmöbel. Von der persönlichen Beratung über
-                  die individuelle Küchenplanung bis hin zur präzisen Montage
-                  begleiten wir unsere Kunden im Umkreis von bis zu 100 km und
-                  auf Anfrage auch darüber hinaus. Unser Anspruch: Räume zu
-                  schaffen, die nicht nur funktional sind, sondern Ihr Zuhause
-                  einzigartig machen. Eine CONTE-Küche steht für Qualität im
-                  gehobenen Segment – langlebig, präzise gefertigt und
-                  durchdacht bis ins Detail. Und das zu einem Preis, der oft
-                  deutlich günstiger ist, als man erwartet.
+                  Als Ihr zuverlässiger Partner in Töging am Inn planen und realisieren wir seit über 28 Jahren maßgeschneiderte Einbauküchen und Bäder. Von der persönlichen Erstberatung bei Ihnen vor Ort über die individuelle Planung mit der NOLTE Neo Serie bis zur koordinierten Montage durch unsere erfahrenen Partner begleiten wir Sie in Altötting, Mühldorf, Rosenheim und dem gesamten Umland.
+
+Unser Anspruch: Räume zu schaffen, die nicht nur perfekt funktionieren, sondern auch dauerhaften Wert und ein gutes Gefühl bieten – zu einem transparenten Preis. Als neues Familienunternehmen in bewährter Tradition führen wir den Namen Ottenthaler mit frischem Schwung und dem starken Netzwerk der CONTE Küche & Raum GmbH.
                 </p>
                 <Link href={"/about"}>
                   <Button className="h-12 w-[150px]">
@@ -152,7 +144,7 @@ const Achievement = () => {
                   />
                 </div>
                 <p className="text-muted-foreground">
-                  Traumküchen geplant und umgesetzt
+                  Zufriedene Kunden in der Region
                 </p>
               </div>
 
@@ -162,14 +154,14 @@ const Achievement = () => {
                 </div>
                 <div className="text-4xl text-secondary font-bold mb-2">
                   <CountUp
-                    end={7}
+                    end={21}
                     enableScrollSpy
                     scrollSpyDelay={2000}
-                    suffix=""
+                    suffix="+"
                   />
                 </div>
                 <p className="text-muted-foreground">
-                  Team mit sieben Mitgliedern
+                  Jahre Erfahrung & Handwerkskunst
                 </p>
               </div>
 
@@ -184,13 +176,13 @@ const Achievement = () => {
                   </div>
                   <div className="text-4xl text-secondary font-bold mb-2">
                     <CountUp
-                      end={110}
+                      end={3}
                       enableScrollSpy
                       scrollSpyDelay={2000}
-                      suffix="+"
+                      
                     />
                   </div>
-                  <p className="text-muted-foreground">tolle Bewertungen</p>
+                  <p className="text-muted-foreground">Klare Schritte zum Festpreis</p>
                 </div>
               </ScrollAnimation>
               {/* <ScrollAnimation

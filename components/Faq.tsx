@@ -66,69 +66,69 @@ const Faq = () => {
     {
       id: 1,
       question:
-        "Warum sollte ich meine Küche bei CONTE Küche & Raum planen lassen?",
+        "Sind Sie ein autorisierter Küchenfachhändler vor Ort?",
       answer:
-        "Unser Küchenstudio bietet individuelle Küchenplanung, die perfekt auf Ihre Räume, Ihren Stil und Ihr Budget abgestimmt ist. Mit langjähriger Erfahrung und persönlicher Beratung begleiten wir Sie vom ersten Entwurf bis zur fertigen Traumküche.",
+        "Ja, wir sind der autorisierte NOLTE Küchen-Partner in Töging am Inn. Als inhabergeführtes Familienunternehmen mit über 28 Jahren Erfahrung in der Region planen und realisieren wir Ihre Küche exklusiv mit der hochwertigen NOLTE Neo Serie.",
     },
     {
       id: 2,
-      question: "Ist die Erstberatung zur Küchenplanung kostenlos?",
+      question: "Wie läuft die erste Beratung ab und was kostet sie?",
       answer:
-        "Ja – die Erstberatung in unserem Küchenstudio oder direkt bei Ihnen zu Hause ist unverbindlich und kostenlos. So können Sie sich in Ruhe ein Bild von unseren Leistungen machen.",
+        "Sie haben zwei Möglichkeiten: Eine kostenlose und unverbindliche Erstberatung findet in unserem Studio in Töging am Inn statt. Wenn Sie eine detaillierte Vor-Ort-Beratung inklusive Aufmaß in Ihrem Zuhause wünschen, berechnen wir dafür eine Planungspauschale von 120€.",
     },
     {
       id: 3,
-      question: " Kann ich online einen Termin im Küchenstudio buchen?",
+      question: "Wie funktioniert die Angebotserstellung und was kostet ein Festpreisangebot?",
       answer:
-        "Ja – über unser Online-Buchungstool können Sie jederzeit bequem einen Beratungstermin für Ihre Küchenplanung oder Wohnraumgestaltung wählen.",
+        "Nach der Beratung erhalten Sie zunächst eine kostenlose mündliche Preisinformation. Ein detailliertes, schriftliches Festpreisangebot mit allen Leistungen, Plänen und der 3D-Visualisierung erstellen wir gegen eine Planungspauschale von 595€. Diese Gebühr wird bei späterem Kaufvertrag selbstverständlich vollständig angerechnet.",
     },
     {
       id: 4,
       question:
-        "Wie lange dauert es von der Planung bis zur fertigen Einbauküche?",
+        "In welchem Umkreis um Töging liefern und montieren Sie?",
       answer:
-        "Die Dauer hängt von der individuellen Planung ab. Nach Auftragserteilung beträgt die Lieferzeit Ihrer neuen Küche in der Regel 6–10 Wochen.",
+        "Unser Servicegebiet umfasst den gesamten Landkreis und einen Umkreis von ca. 40 km um Töging am Inn. Dazu gehören insbesondere Altötting, Mühldorf, Rosenheim, Burghausen, Garching und Neuötting.",
     },
     {
       id: 5,
-      question: "Planen Sie auch Küchen mit kleinerem Budget?",
+      question: "Wer baut die Küche bei mir ein?",
       answer:
-        "Selbstverständlich. Unser Küchenstudio bietet sowohl hochwertige „Standardküchen“ als auch maßgeschneiderte Premiumlösungen. Gemeinsam finden wir die optimale Lösung für Ihr Budget.",
+        "Wir arbeiten mit langjährigen, zuverlässigen Montagepartnern aus der Region zusammen. Sie übernehmen die schlüsselfertige Montage inklusive aller Wasser- und Elektroanschlüsse mit größter Sorgfalt.",
     },
     {
       id: 6,
       question:
-        "Übernehmen Sie auch den Abbau und die Entsorgung meiner alten Küche?",
+        "Bieten Sie auch Badplanung und -sanierung an?",
       answer:
-        "Ja – wir kümmern uns auf Wunsch um den kompletten Abbau und die fachgerechte Entsorgung Ihrer alten Küche, damit Sie sich um nichts kümmern müssen.",
+        "Ja! Neben Küchen sind wir auch Ihr Ansprechpartner für neue Bäder. Wir bieten die gleiche persönliche Beratung und Planung wie bei Ihrer Küche – alles aus einer Hand.",
     },
     {
       id: 7,
       question:
-        "Bieten Sie eine komplette Küchenmontage mit allen Anschlüssen an?",
+        "Was passiert mit meiner alten Küche?",
       answer:
-        "Ja, bei uns erhalten Sie Ihre Küche schlüsselfertig: Lieferung, Montage, Elektro- und Wasseranschlüsse – alles aus einer Hand.",
+        "Auf Wunsch übernehmen wir für Sie den kompletten Abbau und die fachgerechte Entsorgung Ihrer alten Küche. So starten Sie stressfrei in Ihr neues Küchenglück.",
     },
     {
       id: 8,
-      question: "Mit welchen Marken und Herstellern arbeiten Sie?",
+      question: "Wie lange dauert es von der Planung bis zur fertigen Küche?",
       answer:
-        "Wir führen Küchenmöbel und Elektrogeräte namhafter Hersteller. Dadurch haben Sie eine große Auswahl an hochwertigen Materialien, modernen Designs und energieeffizienten Geräten.",
+        "Nach der finalen Planung und Auftragserteilung beträgt die Herstellungszeit bei NOLTE in der Regel 6-8 Wochen. Die Montage erfolgt dann termingerecht innerhalb weniger Tage.",
     },
-    {
-      id: 9,
-      question:
-        " Kann ich bei Ihnen auch Möbel für andere Räume planen lassen?",
-      answer:
-        "Ja – neben Küchen bieten wir auch maßgeschneiderte Lösungen für Wohnräume, Garderoben, Hauswirtschaftsräume, Ankleidezimmer und vieles mehr.",
-    },
-    {
-      id: 10,
-      question:
-        "Habe ich während der Küchenplanung einen festen Ansprechpartner?",
-      answer:
-        "Ja – Sie haben immer einen persönlichen Ansprechpartner, der Ihr Küchenprojekt von der Planung bis zur Fertigstellung betreut.",
-    },
+    // {
+    //   id: 9,
+    //   question:
+    //     " Kann ich bei Ihnen auch Möbel für andere Räume planen lassen?",
+    //   answer:
+    //     "Ja – neben Küchen bieten wir auch maßgeschneiderte Lösungen für Wohnräume, Garderoben, Hauswirtschaftsräume, Ankleidezimmer und vieles mehr.",
+    // },
+    // {
+    //   id: 10,
+    //   question:
+    //     "Habe ich während der Küchenplanung einen festen Ansprechpartner?",
+    //   answer:
+    //     "Ja – Sie haben immer einen persönlichen Ansprechpartner, der Ihr Küchenprojekt von der Planung bis zur Fertigstellung betreut.",
+    // },
   ];
 
   return (
@@ -141,13 +141,10 @@ const Faq = () => {
             FAQ
           </div>
           <h3 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-black/80  leading-tight tracking-tight mb-4">
-            Wertiges Interior. <br /> Wertiger Lifestyle.
+            Häufige Fragen – Ihr Küchen- und Badprofi in Töging am Inn
           </h3>
           <p className="text-lg text-gray-500 max-w-xl mb-8">
-            In unseren FAQs beantworten wir die häufigsten Fragen rund um
-            Planung, Design und Service. Damit Sie schnell und unkompliziert
-            alle Informationen finden, die Ihr Zuhause und Ihr Leben noch
-            wertiger machen.
+            Sie haben Fragen zu Ihrer neuen Küche oder Badplanung? Hier finden Sie die wichtigsten Antworten rund um Planung, Service und Montage in Töging, Altötting, Mühldorf, Rosenheim und dem gesamten Umkreis von 40 km. Sollten Sie weitere Fragen haben, kontaktieren Sie uns gerne direkt.
           </p>
 
           {/* Project completed box */}

@@ -105,7 +105,7 @@ const ContactPage = () => {
                   rel="noopener noreferrer"
                   className="text-gray-500 hover:underline"
                 >
-                  0176/75876349
+                  08631-1660023
                 </a>
               </div>
             </div>
@@ -116,7 +116,7 @@ const ContactPage = () => {
                 <span className="text-lg font-semibold text-gray-800">
                   Email
                 </span>
-                <span className="text-gray-500">info@contekuechen.de</span>
+                <span className="text-gray-500">ottenthaler@vadaconte.de</span>
               </div>
             </div>
             {/* Location */}
@@ -127,7 +127,9 @@ const ContactPage = () => {
                   Adresse
                 </span>
                 <span className="text-gray-500">
-                  Hauptstraße 36, 83527 Haag in Oberbayern
+                  Wolfgang-Leeb-Straße 17
+84513 Töging am Inn
+
                 </span>
               </div>
             </div>
@@ -144,7 +146,7 @@ const ContactPage = () => {
                   rel="noopener noreferrer"
                   className="text-gray-500 hover:underline"
                 >
-                  https://www.contekuechen.de/
+                  https://www.ottenthaler.de/
                 </a>
               </div>
             </div>

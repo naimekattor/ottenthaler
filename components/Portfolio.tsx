@@ -14,7 +14,7 @@ const Portfolio = () => {
         <div className="flex justify-between items-center mb-12">
           <div>
             <p className="text-sm text-muted-foreground mb-4 font-medium">
-              Aktuelle Projekte
+              Unsere Top-Projekte 2026
             </p>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-black/80 leading-tight">
               Verwandle deinen Raum.
@@ -68,7 +68,7 @@ const Portfolio = () => {
               <Image
                 width={800}
                 height={256}
-                src="/images/portfolio/portfolio_img1.jpg"
+                src="/images/portfolio/PictureforReferenceOttenthaler.png"
                 alt="Kitchen Portfolio 1"
                 className="w-full h-64 object-cover rounded-lg"
               />
@@ -81,7 +81,7 @@ const Portfolio = () => {
               <Image
                 width={800}
                 height={256}
-                src="/images/portfolio/portfolio_img2.jpg"
+                src="/images/portfolio/PictureforReferenceOttenthaler.png"
                 alt="Kitchen Portfolio 2"
                 className="w-full h-64 object-cover rounded-lg"
               />
@@ -94,7 +94,7 @@ const Portfolio = () => {
               <Image
                 width={800}
                 height={256}
-                src="/images/portfolio/portfolio_img3.jpg"
+                src="/images/portfolio/PictureforReferenceOttenthaler.png"
                 alt="Kitchen Portfolio 3"
                 className="w-full h-64 object-cover rounded-lg"
               />
@@ -107,7 +107,7 @@ const Portfolio = () => {
               <Image
                 width={800}
                 height={256}
-                src="/images/portfolio/portfolio_img4.jpg"
+                src="/images/portfolio/PictureforReferenceOttenthaler.png"
                 alt="Kitchen Portfolio 4"
                 className="w-full h-64 object-cover rounded-lg"
               />
@@ -120,7 +120,7 @@ const Portfolio = () => {
               <Image
                 width={800}
                 height={256}
-                src="/images/portfolio/portfolio_img5.jpg"
+                src="/images/portfolio/PictureforReferenceOttenthaler.png"
                 alt="Kitchen Portfolio 5"
                 className="w-full h-64 object-cover rounded-lg"
               />
@@ -132,7 +132,7 @@ const Portfolio = () => {
               <Image
                 width={800}
                 height={256}
-                src="/images/portfolio/portfolio_img6.jpg"
+                src="/images/portfolio/PictureforReferenceOttenthaler.png"
                 alt="Kitchen Portfolio 5"
                 className="w-full h-64 object-cover rounded-lg"
               />
@@ -144,7 +144,7 @@ const Portfolio = () => {
               <Image
                 width={800}
                 height={256}
-                src="/images/portfolio/portfolio_img7.jpg"
+                src="/images/portfolio/PictureforReferenceOttenthaler.png"
                 alt="Kitchen Portfolio 5"
                 className="w-full h-64 object-cover rounded-lg"
               />
@@ -156,7 +156,7 @@ const Portfolio = () => {
               <Image
                 width={800}
                 height={256}
-                src="/images/portfolio/portfolio_img8.jpg"
+                src="/images/portfolio/PictureforReferenceOttenthaler.png"
                 alt="Kitchen Portfolio 5"
                 className="w-full h-64 object-cover rounded-lg"
               />
@@ -168,7 +168,7 @@ const Portfolio = () => {
               <Image
                 width={800}
                 height={256}
-                src="/images/portfolio/portfolio_img9.jpg"
+                src="/images/portfolio/PictureforReferenceOttenthaler.png"
                 alt="Kitchen Portfolio 5"
                 className="w-full h-64 object-cover rounded-lg"
               />
@@ -180,7 +180,7 @@ const Portfolio = () => {
               <Image
                 width={800}
                 height={256}
-                src="/images/portfolio/portfolio_img10.jpg"
+                src="/images/portfolio/PictureforReferenceOttenthaler.png"
                 alt="Kitchen Portfolio 5"
                 className="w-full h-64 object-cover rounded-lg"
               />
@@ -192,7 +192,7 @@ const Portfolio = () => {
               <Image
                 width={800}
                 height={256}
-                src="/images/portfolio/portfolio_img11.jpg"
+                src="/images/portfolio/PictureforReferenceOttenthaler.png"
                 alt="Kitchen Portfolio 5"
                 className="w-full h-64 object-cover rounded-lg"
               />

@@ -13,98 +13,107 @@ const Work = () => {
         Unser Prozess
       </h3>
       <h2 className="font-semibold text-black/80 text-3xl sm:text-4xl lg:text-5xl text-center">
-        So entsteht Ihre Traumküche – Schritt für Schritt.
+        Ihr Weg zur Traumküche – in 3 klaren Schritten.
       </h2>
 
       <div className="grid md:grid-cols-3 gap-8 container mx-auto py-20">
-        {/* Step 01 */}
-        <ScrollAnimation
-          initial={{ opacity: 0, y: -100 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1.5 }}
-        >
-          <div className="relative text-center shadow-lg bg-white rounded p-2 group overflow-hidden">
-            {/* Background image (hidden by default, shown on hover) */}
-            <div
-              className="absolute inset-0 bg-cover bg-center rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-              style={{
-                backgroundImage: `url('/images/work_img.jpg') !important`,
-              }}
-            />
-            <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 rounded-lg transition-opacity duration-300"></div>
-            <div className="relative z-10 p-8">
-              <div className="text-8xl font-bold text-gray-100 mb-4">01</div>
-              <h3 className="text-2xl font-bold mb-4 group-hover:text-white">
-                Beratung & Planung
-              </h3>
-              <p className="text-[#54595F] group-hover:text-white mb-6">
-                Wir nehmen uns Zeit für Sie: In einem persönlichen Gespräch
-                erarbeiten wir Ihre Wünsche und entwickeln eine individuelle
-                Planung, die perfekt zu Ihrem Zuhause passt.
-              </p>
-              <div className="w-12 h-12 border-2 border-primary group-hover:border-white rounded-lg flex items-center justify-center mx-auto">
-                <MdOutlineEventNote className="w-6 h-6 text-primary group-hover:text-white" />
-              </div>
-            </div>
-          </div>
-        </ScrollAnimation>
+  {/* Step 01 */}
+  <ScrollAnimation
+    initial={{ opacity: 0, y: -100 }}
+    animate={{ opacity: 1, y: 0 }}
+    transition={{ duration: 1.5 }}
+  >
+    <div className="relative text-center shadow-lg bg-white rounded-lg overflow-hidden h-full group">
+      {/* Hover Background */}
+      <div
+        className="absolute inset-0 bg-cover bg-center opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+        style={{ backgroundImage: "url('/images/B6.jpg')" }}
+      />
+      <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
-        {/* Step 02 - Always show background */}
-        <div className="relative text-center shadow-lg bg-white rounded-lg overflow-hidden">
-          {/* Background image with overlay */}
-          <div
-            className="absolute inset-0 bg-cover bg-center"
-            style={{ backgroundImage: "url('/images/work_img.jpg')" }}
-          >
-            <div className="absolute inset-0 bg-black/60"></div> {/* overlay */}
-          </div>
-
-          {/* Content */}
-          <div className="relative z-10 p-8 text-white">
-            <div className="text-8xl font-bold mb-4">02</div>
-            <h3 className="text-2xl font-bold mb-4">Auswahl & Gestaltung</h3>
-            <p className="text-white/90 mb-6">
-              Ob Materialien, Geräte oder besondere Details – gemeinsam finden
-              wir die optimale Kombination aus Design, Funktionalität und
-              Preis-Leistung.
-            </p>
-            <div className="w-12 h-12 border-2 border-white rounded-lg flex items-center justify-center mx-auto">
-              <MdOutlineDesignServices className="w-6 h-6 text-white" />
-            </div>
-          </div>
+      {/* Content */}
+      <div className="relative z-10 p-8 flex flex-col justify-between h-full">
+        <div>
+          <div className="text-8xl font-bold text-gray-100 mb-4">01</div>
+          <h3 className="text-2xl font-bold mb-4 group-hover:text-white transition-colors">
+            Schritt 1: Vor-Ort-Beratung & Individuelle Planung
+          </h3>
+          <p className="text-[#54595F] group-hover:text-white mb-6 text-left transition-colors">
+            Wir starten mit Ihrer kostenlosen Erstberatung in unserem Studio in Töging. Hier lernen wir uns kennen und besprechen Ihre Wünsche und Ideen für Ihre neue NOLTE Küche oder Ihr Bad. Bei konkretem Interesse und zur detaillierten Planung vereinbaren wir einen Vor-Ort-Termin bei Ihnen zuhause in Töging, Altötting oder Mühldorf (gegen eine Planungspauschale). Dort nehmen wir alle Maße auf und entwickeln exklusiv mit der NOLTE Neo Kollektion den ersten Entwurf für Ihre individuelle Lösung – passend zu Ihrem Budget.
+          </p>
         </div>
 
-        {/* Step 03 */}
-        <ScrollAnimation
-          initial={{ opacity: 0, y: 100 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1.5 }}
-        >
-          <div className="relative text-center shadow-lg bg-white rounded p-2 group overflow-hidden h-full">
-            <div
-              className="absolute inset-0 bg-cover bg-center rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-              style={{
-                backgroundImage: `url('/images/work_img.jpg') !important`,
-              }}
-            />
-            <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 rounded-lg transition-opacity duration-300"></div>
-            <div className="relative z-10 p-8">
-              <div className="text-8xl font-bold text-gray-100 mb-4">03</div>
-              <h3 className="text-2xl font-bold mb-4 group-hover:text-white">
-                Montage & Fertigstellung
-              </h3>
-              <p className="text-muted-foreground mb-6 group-hover:text-white">
-                Unser erfahrenes Schreiner- und Montageteam sorgt für eine
-                präzise Umsetzung. So entsteht eine Küche, die bis ins Detail
-                überzeugt.
-              </p>
-              <div className="w-12 h-12 border-2 border-primary group-hover:border-white rounded-lg flex items-center justify-center mx-auto">
-                <MdOutlineKitchen className="w-6 h-6 text-primary group-hover:text-white" />
-              </div>
-            </div>
-          </div>
-        </ScrollAnimation>
+        {/* Icon at bottom */}
+        <div className="w-12 h-12 mx-auto border-2 border-primary group-hover:border-white rounded-lg flex items-center justify-center transition-colors">
+          <MdOutlineEventNote className="w-6 h-6 text-primary group-hover:text-white transition-colors" />
+        </div>
       </div>
+    </div>
+  </ScrollAnimation>
+
+  {/* Step 02 - Always visible background */}
+  <div className="relative text-center shadow-lg bg-white rounded-lg overflow-hidden h-full">
+    {/* Background + Overlay */}
+    <div
+      className="absolute inset-0 bg-cover bg-center"
+      style={{ backgroundImage: "url('/images/B6.jpg')" }}
+    >
+      <div className="absolute inset-0 bg-black/60" />
+    </div>
+
+    {/* Content */}
+    <div className="relative z-10 p-8 text-white flex flex-col justify-between h-full">
+      <div>
+        <div className="text-8xl font-bold mb-4">02</div>
+        <h3 className="text-2xl font-bold mb-4">
+          Schritt 2: Transparentes Festpreis-Angebot & Detail-Abstimmung
+        </h3>
+        <p className="text-white/90 mb-6 text-left">
+          Auf Basis der Vor-Ort-Planung erhalten Sie von uns ein kostenloses mündliches Preisangebot. Für die endgültige Entscheidungssicherheit erstellen wir auf Wunsch ein detailliertes, schriftliches Festpreisangebot inklusive aller Pläne und der 3D-Visualisierung (gegen eine Planungspauschale von 595€, die bei Kaufvertrag angerechnet wird). Auf dieser verbindlichen Grundlage stimmen wir gemeinsam die Feinheiten ab: Materialien, Farben, Griffe und die perfekte Integration Ihrer Elektrogeräte für eine Küche, die bis ins Detail zu Ihnen passt.
+        </p>
+      </div>
+
+      {/* Icon at bottom */}
+      <div className="w-12 h-12 mx-auto border-2 border-white rounded-lg flex items-center justify-center">
+        <MdOutlineDesignServices className="w-6 h-6 text-white" />
+      </div>
+    </div>
+  </div>
+
+  {/* Step 03 */}
+  <ScrollAnimation
+    initial={{ opacity: 0, y: 100 }}
+    animate={{ opacity: 1, y: 0 }}
+    transition={{ duration: 1.5 }}
+  >
+    <div className="relative text-center shadow-lg bg-white rounded-lg overflow-hidden h-full group">
+      {/* Hover Background */}
+      <div
+        className="absolute inset-0 bg-cover bg-center opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+        style={{ backgroundImage: "url('/images/B6.jpg')" }}
+      />
+      <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+
+      {/* Content */}
+      <div className="relative z-10 p-8 flex flex-col justify-between h-full">
+        <div>
+          <div className="text-8xl font-bold text-gray-100 mb-4">03</div>
+          <h3 className="text-2xl font-bold mb-4 group-hover:text-white transition-colors">
+            Schritt 3: Koordinierte Montage & schlüsselfertige Übergabe
+          </h3>
+          <p className="text-[#54595F] group-hover:text-white mb-6 text-left transition-colors">
+            Wir kümmern uns um alles. Nach der Fertigung bei NOLTE koordinieren wir Lieferung und termingerechte, saubere Montage durch unsere zuverlässigen Partner – inklusive aller Anschlüsse. Zum Abschluss übergeben wir Ihnen Ihre neue NOLTE Küche schlüsselfertig und Sie können sofort einziehen.
+          </p>
+        </div>
+
+        {/* Icon at bottom */}
+        <div className="w-12 h-12 mx-auto border-2 border-primary group-hover:border-white rounded-lg flex items-center justify-center transition-colors">
+          <MdOutlineKitchen className="w-6 h-6 text-primary group-hover:text-white transition-colors" />
+        </div>
+      </div>
+    </div>
+  </ScrollAnimation>
+</div>
     </section>
   );
 };

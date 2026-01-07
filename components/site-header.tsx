@@ -143,7 +143,7 @@ export default function Header() {
           <Link
   href="https://wa.me/+4917675876349"
   target="_blank"
-  className="inline-flex items-center justify-center bg-primary rounded-lg"
+  className="inline-flex items-center justify-center bg-[#926349] rounded-lg"
 >
   <FaWhatsappSquare size={50} className="text-white" />
 </Link>

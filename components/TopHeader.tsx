@@ -11,7 +11,7 @@ const TopHeader = () => {
         {/* Left: Address */}
         <div className="flex items-center gap-3 py-2 text-[#333333] text-[16px] font-montserrat  px-6">
           <FaMapMarkerAlt />
-          <span>Wolfgang-Leeb-Straße 17
+          <span>Wolfgang-Leeb-Straße, 17
 84513 Töging am Inn
 </span>
         </div>

@@ -102,14 +102,14 @@ export default function Footer() {
                   Kontakt
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   href="/blog"
                   className="text-gray-600  transition-colors"
                 >
                   Blog
                 </Link>
-              </li>
+              </li> */}
 
               <li>
                 <Link

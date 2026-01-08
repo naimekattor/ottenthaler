@@ -36,10 +36,11 @@ const Work = () => {
         <div>
           <div className="text-8xl font-bold text-gray-100 mb-4">01</div>
           <h3 className="text-2xl font-bold mb-4 group-hover:text-white transition-colors">
-            Schritt 1: Vor-Ort-Beratung & Individuelle Planung
+            Schritt 1: Kostenlose Erstberatung & individuelle Planung
+
           </h3>
           <p className="text-[#54595F] group-hover:text-white mb-6 text-left transition-colors">
-            Wir starten mit Ihrer kostenlosen Erstberatung in unserem Studio in Töging. Hier lernen wir uns kennen und besprechen Ihre Wünsche und Ideen für Ihre neue NOLTE Küche oder Ihr Bad. Bei konkretem Interesse und zur detaillierten Planung vereinbaren wir einen Vor-Ort-Termin bei Ihnen zuhause in Töging, Altötting oder Mühldorf (gegen eine Planungspauschale). Dort nehmen wir alle Maße auf und entwickeln exklusiv mit der NOLTE Neo Kollektion den ersten Entwurf für Ihre individuelle Lösung – passend zu Ihrem Budget.
+            Wir starten mit Ihrer kostenlosen Erstberatung in unserem Studio in Töging. Hier lernen wir uns kennen, besprechen Ihre Wünsche und Ideen für Ihre neue NOLTE Küche oder Ihr Bad und ermitteln Ihren Bedarf. Auf dieser Grundlage erstellen wir einen ersten Planungsvorschlag und gehen diesen mit Ihnen persönlich durch – selbstverständlich kostenfrei und inklusive erster Anpassungen. So erhalten Sie bereits vor Ort eine mündliche Preisindikation.
           </p>
         </div>
 
@@ -69,7 +70,7 @@ const Work = () => {
           Schritt 2: Transparentes Festpreis-Angebot & Detail-Abstimmung
         </h3>
         <p className="text-white/90 mb-6 text-left">
-          Auf Basis der Vor-Ort-Planung erhalten Sie von uns ein kostenloses mündliches Preisangebot. Für die endgültige Entscheidungssicherheit erstellen wir auf Wunsch ein detailliertes, schriftliches Festpreisangebot inklusive aller Pläne und der 3D-Visualisierung (gegen eine Planungspauschale von 595€, die bei Kaufvertrag angerechnet wird). Auf dieser verbindlichen Grundlage stimmen wir gemeinsam die Feinheiten ab: Materialien, Farben, Griffe und die perfekte Integration Ihrer Elektrogeräte für eine Küche, die bis ins Detail zu Ihnen passt.
+        Auf Basis der Vor-Ort-Planung erhalten Sie von uns ein kostenloses mündliches Preisangebot. Für die endgültige Entscheidungssicherheit erstellen wir auf Wunsch ein detailliertes, schriftliches Festpreisangebot inklusive aller Pläne und der 3D-Visualisierung (gegen eine Planungspauschale von 595€, die bei Kaufvertrag angerechnet wird).
         </p>
       </div>
 

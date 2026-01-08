@@ -16,9 +16,7 @@ const Team = () => {
             Unser Team
           </p>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-black/80 leading-tight">
-            Spezialisten in jedem Bereich.
-            <br />
-            Gemeinsam für Ihre Traumküche.
+            Ihr Conte-Team in Ottenthaler – vertraut, verlässlich, vor Ort.
           </h2>
         </div>
 
@@ -51,28 +49,6 @@ const Team = () => {
                   <Image
                     width={800}
                     height={376}
-                    src="/images/team_img1.jpg"
-                    alt="Daniele Conte"
-                    className="w-full h-94 object-cover"
-                  />
-                  <div className="p-6 absolute bottom-0  z-10 bg-white w-full">
-                    <div className="relative">
-                      <p className="text-sm text-muted-foreground mb-1">
-                        Inhaber und Geschäftsführung
-                      </p>
-                      <h4 className="font-bold text-lg">Daniele Conte</h4>
-                    </div>
-                  </div>
-                </div>
-              </Card>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <Card className="p-0 bg-white border-0 shadow-lg overflow-hidden">
-                <div className="relative">
-                  <Image
-                    width={800}
-                    height={376}
                     src="/images/team_img2.jpg"
                     alt="Valentina Conte"
                     className="w-full h-94 object-cover"
@@ -80,7 +56,7 @@ const Team = () => {
                   <div className="p-6 absolute bottom-0  z-10 bg-white w-full">
                     <div className="relative">
                       <p className="text-sm text-muted-foreground mb-1">
-                        Buchhaltung und Verwaltung
+                        Inhaberin und Geschäftsführung
                       </p>
                       <h4 className="font-bold text-lg">Valentina Conte</h4>
                     </div>
@@ -92,6 +68,29 @@ const Team = () => {
                 </div>
               </Card>
             </SwiperSlide>
+            <SwiperSlide>
+              <Card className="p-0 bg-white border-0 shadow-lg overflow-hidden">
+                <div className="relative">
+                  <Image
+                    width={800}
+                    height={376}
+                    src="/images/team_img1.jpg"
+                    alt="Daniele Conte"
+                    className="w-full h-94 object-cover"
+                  />
+                  <div className="p-6 absolute bottom-0  z-10 bg-white w-full">
+                    <div className="relative">
+                      {/* <p className="text-sm text-muted-foreground mb-1">
+                        Inhaber und Geschäftsführung
+                      </p> */}
+                      <h4 className="font-bold text-lg">Daniele Conte</h4>
+                    </div>
+                  </div>
+                </div>
+              </Card>
+            </SwiperSlide>
+
+            
 
             <SwiperSlide>
               <Card className="p-0 bg-white border-0 shadow-lg overflow-hidden">
@@ -105,9 +104,9 @@ const Team = () => {
                   />
                   <div className="p-6 absolute bottom-0  z-10 bg-white w-full">
                     <div className="relative">
-                      <p className="text-sm text-muted-foreground mb-1">
+                      {/* <p className="text-sm text-muted-foreground mb-1">
                         Planung und Sachbearbeitung
-                      </p>
+                      </p> */}
                       <h4 className="font-bold text-lg">Filip</h4>
                     </div>
 
@@ -131,9 +130,9 @@ const Team = () => {
                   />
                   <div className="p-6 absolute bottom-0  z-10 bg-white w-full">
                     <div className="relative">
-                      <p className="text-sm text-muted-foreground mb-1">
+                      {/* <p className="text-sm text-muted-foreground mb-1">
                         Montageleitung
-                      </p>
+                      </p> */}
                       <h4 className="font-bold text-lg">Enrico</h4>
                     </div>
                   </div>

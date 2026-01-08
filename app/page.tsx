@@ -21,7 +21,7 @@ export default function Home() {
       <Testoimonial />
       <Team />
       <Faq />
-      <Blog />
+      {/* <Blog /> */}
     </div>
   );
 }

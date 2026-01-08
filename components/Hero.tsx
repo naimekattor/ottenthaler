@@ -95,13 +95,13 @@ in Töging, Altötting und Mühldorf.
               <div className="flex-1 text-right">
                 <div className="text-xl font-bold text-gray-900">
                   <CountUp
-                    end={110}
+                    end={1000}
                     enableScrollSpy
                     scrollSpyDelay={1000}
                     suffix="+"
                   />
                 </div>
-                <div className="text-sm text-gray-500">tolle Bewertungen</div>
+                <div className="text-sm text-gray-500">Zufriedene Kunden in der Region</div>
               </div>
             </div>
           </div>

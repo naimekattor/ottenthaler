@@ -64,7 +64,7 @@ const ContactPage = () => {
         <div className="relative w-full lg:w-1/2 min-h-[300px]">
           <div className="relative w-full h-0 pb-[56.25%] overflow-hidden rounded-xl shadow-lg">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2661.321592220574!2d12.179630476424549!3d48.16188287124628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4775f9500061f825%3A0xbab56b4aef57555c!2sHauptstra%C3%9Fe%2036%2C%2083527%20Haag%20in%20Oberbayern%2C%20Germany!5e0!3m2!1sen!2sbd!4v1757133589268!5m2!1sen!2sbd"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2656.2796586329364!2d12.5909777!3d48.25899249999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4775c2232e78877d%3A0x585b812545fd7444!2sWolfgang-Leeb-Stra%C3%9Fe%2017%2C%2084513%20T%C3%B6ging%20am%20Inn%2C%20Germany!5e0!3m2!1sen!2sbd!4v1767867955522!5m2!1sen!2sbd"
               className="absolute top-0 left-0 w-full h-full border-0"
               allowFullScreen
               referrerPolicy="no-referrer-when-downgrade"
@@ -93,14 +93,14 @@ const ContactPage = () => {
               <FaSquareWhatsapp className="w-6 h-6 text-secondary flex-shrink-0" />
               <div className="flex flex-col">
                 <Link
-                  href={"https://wa.me/+4917675876349"}
+                  href={"https://wa.me/+4917620148375"}
                   target="_blank"
                   className="text-lg font-semibold text-gray-800"
                 >
                   WhatsApp
                 </Link>
                 <a
-                  href="https://wa.me/4917675876349"
+                  href="https://wa.me/+4917620148375"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-500 hover:underline"
@@ -153,7 +153,18 @@ const ContactPage = () => {
           </div>
         </div>
       </div>
-      <div className="bg-gray-100  flex items-center justify-start pb-8 font-sans bg-[url('/images/contact_bg.jpg')] bg-cover bg-center container mx-auto">
+      <div className="
+    bg-gray-100
+    flex items-center justify-start
+    pb-8
+    font-sans
+    bg-[url('/images/OttenthalerContact.jpg')]
+    bg-cover
+    bg-center
+    bg-no-repeat
+    container
+    mx-auto
+  ">
         <div className="md:max-w-xl w-full float-left bg-white p-4 rounded">
           {/* Header */}
           <div className="flex flex-col mb-8 text-center sm:text-left">

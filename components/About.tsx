@@ -27,7 +27,7 @@ export default function AboutSection() {
               <div className="bg-primary text-white rounded shadow-lg flex flex-col items-center justify-center text-center p-8">
                 <h2 className="text-4xl sm:text-5xl font-bold">
                   <CountUp
-                    end={3}
+                    end={28}
                     enableScrollSpy
                     scrollSpyDelay={1000}
                     suffix="+"

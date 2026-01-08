@@ -113,14 +113,14 @@ export default function Header() {
           >
             Service
           </Link>
-          <Link
+          {/* <Link
             href="/blog"
             className={`text-[18px] ${
               pathname === "/blog" ? "text-primary" : ""
             }`}
           >
             Blog
-          </Link>
+          </Link> */}
 
           <Link
             href="/contact"
@@ -141,7 +141,7 @@ export default function Header() {
           </Button>
           
           <Link
-  href="https://wa.me/+4917675876349"
+  href="https://wa.me/+4917620148375"
   target="_blank"
   className="inline-flex items-center justify-center bg-[#926349] rounded-lg"
 >
@@ -214,13 +214,13 @@ ${open ? "translate-x-0" : "-translate-x-full"}`}
             >
               Service
             </Link>
-            <Link
+            {/* <Link
               href="/blog"
               onClick={() => setOpen(false)}
               className="text-lg"
             >
               Blog
-            </Link>
+            </Link> */}
             <Link
               href="/contact"
               onClick={() => setOpen(false)}
@@ -234,7 +234,7 @@ ${open ? "translate-x-0" : "-translate-x-full"}`}
             >
               Termin buchen <ArrowRight />
             </Button>
-            <Link href={"https://wa.me/+4917675876349"} target="_blank">
+            <Link href={"https://wa.me/+4917620148375"} target="_blank">
               <FaWhatsappSquare size={50} className="text-primary" />
             </Link>
           </div>

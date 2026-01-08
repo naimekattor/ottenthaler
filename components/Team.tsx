@@ -117,6 +117,27 @@ const Team = () => {
                 </div>
               </Card>
             </SwiperSlide>
+            <SwiperSlide>
+              <Card className="p-0 bg-white border-0 shadow-lg overflow-hidden">
+                <div className="relative">
+                  <Image
+                    width={800}
+                    height={376}
+                    src="/images/team_img15.png"
+                    alt="Ismet"
+                    className="w-full h-94 object-cover"
+                  />
+                  <div className="p-6 absolute bottom-0  z-10 bg-white w-full">
+                    <div className="relative">
+                      {/* <p className="text-sm text-muted-foreground mb-1">
+                        Montage
+                      </p> */}
+                      <h4 className="font-bold text-lg">Erwin underneath</h4>
+                    </div>
+                  </div>
+                </div>
+              </Card>
+            </SwiperSlide>
 
             <SwiperSlide>
               <Card className="p-0 bg-white border-0 shadow-lg overflow-hidden">
@@ -160,6 +181,7 @@ const Team = () => {
                 </div>
               </Card>
             </SwiperSlide>
+            
           </Swiper>
 
           {/* Pagination Dots */}

@@ -11,9 +11,9 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "CONTE | Küchenstudio für Mühldorf & Region München",
+  title: "Nolte Kuchen Ottenthaler - Ihr offizieller Monostore & Fachhandler",
   description:
-    "Ihr Küchenfachgeschäft für exklusive Küchen in Mühldorf, München, Erding, Rosenheim & Ebersberg. Eigene Werkstatt – Manufakturqualität inklusive Montage.",
+    "Willkommen bei Ottenthaler, dem autorisierten Nolte Monostore. Wir bieten exklusive Nolte Küchen, personliche Beratung & professionelle Montage. Ihr Kuchenspezialist - jetzt Inspiration holen & Termin vereinbaren!",
   icons: {
     icon: "/favicon.ico",
   },

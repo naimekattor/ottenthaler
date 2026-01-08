@@ -143,7 +143,7 @@ export default function AboutSection() {
 
           {showModal && rootElement && (
             <PopupModal
-              url="https://calendly.com/contekuechen"
+              url="https://calendly.com/ottenthaler"
               onModalClose={() => setShowModal(false)}
               open={showModal}
               rootElement={rootElement}

@@ -325,13 +325,13 @@ const [loading, setLoading] = useState(true);
               </h3>
               <div className="flex justify-start space-x-4">
                 <Link
-                  href="https://www.facebook.com/contekuechen"
+                  href="https://www.facebook.com/profile.php?id=61585777100973"
                   className="w-10 h-10 bg-gray-100 hover:bg-gray-200 rounded-lg flex items-center justify-center cursor-pointer transition-colors"
                 >
                   <Facebook className="w-5 h-5 text-gray-600" />
                 </Link>
                 <Link
-                  href="https://www.instagram.com/contekuechen"
+                  href="https://www.instagram.com/ottenthalerkuechen"
                   className="w-10 h-10 bg-gray-100 hover:bg-gray-200 rounded-lg flex items-center justify-center cursor-pointer transition-colors"
                 >
                   <FaInstagram className="w-5 h-5 text-gray-600" />

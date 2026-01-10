@@ -31,8 +31,7 @@ const TopHeader = () => {
             {/* <a href="#" className="hover:text-gray-300">
               <FaTwitter />
             </a> */}
-            <a href="https://www.instagram.com/ottenthalerkuechen
-/" className="hover:text-gray-300">
+            <a href="https://www.instagram.com/ottenthalerkuechen" className="hover:text-gray-300">
               <FaInstagram />
             </a>
             {/* <a href="#" className="hover:text-gray-300">

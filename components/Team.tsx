@@ -132,7 +132,7 @@ const Team = () => {
                       {/* <p className="text-sm text-muted-foreground mb-1">
                         Montage
                       </p> */}
-                      <h4 className="font-bold text-lg">Erwin underneath</h4>
+                      <h4 className="font-bold text-lg">Erwin</h4>
                     </div>
                   </div>
                 </div>

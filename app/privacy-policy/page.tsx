@@ -45,9 +45,9 @@ const page = () => {
             </a>
           </p>
           <p className="text-gray-600 mb-4">
-            USt-IdNr.: DE334377741
+            USt-IdNr.: DE458970626
             <br />
-            Handelsregister: HRB 29094 Traunstein
+            Handelsregister: HRB 34689Traunstein
           </p>
           <p className="text-gray-600 mb-4">
             <strong>Vertretungsberechtigt:</strong>

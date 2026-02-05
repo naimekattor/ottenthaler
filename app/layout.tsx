@@ -11,7 +11,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "Nolte Kuchen Ottenthaler - Ihr offizieller Monostore & Fachhandler",
+  title: "Ihr NOLTE Küchenstudio im Herzen Oberbayerns in Töging, Altötting und Mühldorf.",
   description:
     "Willkommen bei Ottenthaler, dem autorisierten Nolte Monostore. Wir bieten exklusive Nolte Küchen, personliche Beratung & professionelle Montage. Ihr Kuchenspezialist - jetzt Inspiration holen & Termin vereinbaren!",
   icons: {

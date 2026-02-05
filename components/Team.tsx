@@ -123,7 +123,7 @@ const Team = () => {
                   <Image
                     width={800}
                     height={376}
-                    src="/images/team_img15.png"
+                    src="/images/Erwin.jpeg"
                     alt="Ismet"
                     className="w-full h-94 object-cover"
                   />
